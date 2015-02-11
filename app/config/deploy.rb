@@ -3,7 +3,7 @@ set :domain,      "m.global-reservation.com"
 set :deploy_to,   "/var/www/m.global-reservation.com"
 set :app_path,    "app"
 
-set :repository,  "#{domain}:/var/repos/#{application}.git"
+set :repository,  "github.com/globalReservation/global.git"
 set :scm,         :git
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `subversion`, `mercurial`, `perforce`, or `none`
 
